@@ -24,13 +24,17 @@ Este proyecto demuestra los principios para un escaneo de red exitoso utilizando
   [ nmap -sS <HOST> -oN SYN_scan.txt ]
 
  *txt* = 
+ 
  *screenshot* = 
 
 **-sS :** realiza un escaneo de puertos bajo el protocolo TCP, envía paquetes SYN y es considerado rápido y discreto ya que no completa la conexion TCP. Los resultados de puertos a esperar son:
   * SYN-ACK (abierto)
   * RST (cerrado)
   * No responce / ICMP error (filtrado)
+    
 **-oN :** guarda la salida del escaneo en un archivo *.txt*
+
+
 
 ## English: 
 This project demonstrates the principles of successful network scanning using Nmap within a controlled, virtual environment. It will execute various commands that demonstrate the skills necessary for host scanning, discover port status, determine service, and identify operating system.
