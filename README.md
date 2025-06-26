@@ -4,7 +4,7 @@ Basic commands for a successful Nmap network scanning
 ## Español : 
 Este proyecto demuestra los principios para un escaneo de red exitoso utilizando **Nmap** dentro de un ambiente controlado en un entorno virtual. En el se ejecutara diferentes comandos los cuales demuestran habilidades necesarias para escaneo de host, descubrir estado de puertos, determinar servicios y identificar sistemas operativos.
 
-**Resultados de aprendizaje :**
+**Resultados :**
  * Configuración de laboratirio : Configuración de red virtual aislada en Kali Linux y Windows10 dentro de VirtualBox.
  * Descubrimiento de Hosts : Identificación de hosts en una red mediante escaneos ping.
  * Escaneo de puertos : Ejecución de sondeos TCP SYN enviando paquetes sigilosos para descubrir puertos abiertos.
@@ -13,7 +13,7 @@ Este proyecto demuestra los principios para un escaneo de red exitoso utilizando
  * Escaneo puertos principales : Escaneo de puertos más usados.
  * Documentacion : Explicaciónes claras, ejemplos de comandos, respuestas y evidencia basada en capturas de pantalla.
 
-**Herramientas usadas**
+**Herramientas usadas :**
  * Nmap : Herramienta de escaneo y seguridad.
  * Kali Linux : Atacante dentro de un entorno virtual controlado.
  * Windows 10 : Objetivo dentro de un entorno virtual controlado.
