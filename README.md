@@ -22,7 +22,7 @@ Este proyecto demuestra los principios para un escaneo de red exitoso utilizando
 ## Comandos Nmap :
 
 
-  ´´´[ nmap -sn <HOST> -oN ping_host.txt ]´´´
+  **[ nmap -sn <HOST> -oN ping_host.txt ]**
 
  *txt* = 
  
@@ -34,7 +34,7 @@ Este proyecto demuestra los principios para un escaneo de red exitoso utilizando
 
 
 
-  ´´´[ nmap -sS <HOST> -oN SYN_scan.txt ]´´´
+  ´**[ nmap -sS <HOST> -oN SYN_scan.txt ]**
 
  *txt* = 
  
@@ -49,7 +49,7 @@ Este proyecto demuestra los principios para un escaneo de red exitoso utilizando
 
 
 
-  ´´´[ nmap -Pn <HOST> -oN no_ping_scan.txt ]´´´
+  **[ nmap -Pn <HOST> -oN no_ping_scan.txt ]**
 
  *txt* = 
  
