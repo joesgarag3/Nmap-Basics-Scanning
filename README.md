@@ -19,20 +19,46 @@ Este proyecto demuestra los principios para un escaneo de red exitoso utilizando
  * Windows 10 : Objetivo dentro de un entorno virtual controlado.
  * VirtualBox : Software de virtualización.
 
-**Comandos Nmap :**
+## Comandos Nmap :
 
-  [ nmap -sS <HOST> -oN SYN_scan.txt ]
+
+  '''[ nmap -sn <HOST> -oN ping_host.txt ]'''
+
+ *txt* = 
+ 
+ *screenshot* = 
+ 
+**-sn :** realiza un ping al host para verificar si el dispositivo se encuentra activo y no realiza el escaneo por lo que es más rápido.
+    
+**-oN :** guarda la salida del escaneo en un archivo *.txt*
+
+
+
+  '''[ nmap -sS <HOST> -oN SYN_scan.txt ]'''
 
  *txt* = 
  
  *screenshot* = 
 
-**-sS :** realiza un escaneo de puertos bajo el protocolo TCP, envía paquetes SYN y es considerado rápido y discreto ya que no completa la conexion TCP. Los resultados de puertos a esperar son:
+**-sS :** realiza un escaneo de puertos bajo el protocolo TCP, envía paquetes SYN, es considerado rápido y discreto ya que no completa la conexion TCP. Los resultados de puertos a esperar son:
   * SYN-ACK (abierto)
   * RST (cerrado)
   * No responce / ICMP error (filtrado)
     
 **-oN :** guarda la salida del escaneo en un archivo *.txt*
+
+
+
+  '''[ nmap -Pn <HOST> -oN no_ping_scan.txt ]'''
+
+ *txt* = 
+ 
+ *screenshot* = 
+
+**-Pn :** este escaneo se realiza asumiento que todos los host estan activos, evita el envio de paquetes ping y realizara directamente el escaneo de análisis de puertos.
+    
+**-oN :** guarda la salida del escaneo en un archivo *.txt*
+
 
 
 
